@@ -12,7 +12,7 @@ class NecklaceResource extends JsonResource
      * @param  \Illuminate\Http\Request  $request
      * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
      */
-    public static $wrap ="necklace"; //ovo predstavlja naziv objekta
+    public static $wrap ="necklace";
     public function toArray($request)
     {
         return [

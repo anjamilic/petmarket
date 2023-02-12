@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
        
-        User::truncate(); //da nam ne izbacuje greske u konzoli
+        User::truncate(); 
         Pet::truncate();
         Necklace::truncate();
 
